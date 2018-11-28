@@ -18,7 +18,7 @@
 bool solve()
 {
 
-    Eigen::MatioFile file("test.mat", MAT_ACC_RDONLY, false);
+    Eigen::MatioFile file("data.mat", MAT_ACC_RDONLY, false);
 
     Eigen::MatrixXd H;
     file.read_mat("hessian", H);
